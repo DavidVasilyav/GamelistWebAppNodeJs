@@ -1,0 +1,63 @@
+main {
+    background-image: url(https://img.freepik.com/free-photo/cruel-war-scenes-digital-painting_456031-162.jpg?w=1380&t=st=1667428082~exp=1667428682~hmac=8abe3bc6d065ebfa3684aca7977e63871a756f862ffe4dce459caabdb9de5119);
+    background-size: cover;
+
+}
+
+form {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 4px #7f5af0 solid !important;
+    border-radius: 10px;
+    border-width: 2px 2px;
+    background: rgb(148, 161, 178, 0.5) !important;
+    padding: 15px;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    background: #16161a;
+    color: #2cb67d;
+    border-radius: 10px;
+    
+}
+
+label {
+    background: none;
+    color: #7f5af0;
+    background-color: rgb(22, 22, 26, 0.8);
+    border-bottom: 3px solid #2cb67d;
+    border-top: 3px solid #2cb67d;
+    border-radius: 8px;
+
+}
+
+data-form-message {
+    background: white;
+}
+
+#message {
+    background-color: #94a1b2;
+}
+
+button{
+    border: 2px solid #94a1b2;
+    background: #7f5af0;
+    color: #fffffe;
+    cursor: pointer;
+    border-radius: 10px !important;
+    transition: 2s;
+
+
+}
+
+button:hover {
+    background: #16161a;
+    color: #7f5af0;
+    transition: 2s;
+    border-color: #fffffe;
+    -webkit-text-stroke: #fffffe;
+}

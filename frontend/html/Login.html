@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../backend/"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/global.css">
+    <link rel="stylesheet" href="../style/login.css">
+    <script src="../js/login.js" defer ></script>
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <h1 id="gamelist">GameList.com</h1>
+        <div id="user-status"></div>
+        <a href="./Login.html">
+            <div class="links">
+                
+                <button>Login</button>
+            </a>
+            <a href="./Register.html">
+                <button>Register</button>
+            </a>
+            
+        </div>
+    </header>
+    <main>
+        <p>Wellcome back please sign in or register</p>
+        <form data-login>
+            <label for="username">Username</label>
+            <input type="text" required data-login-username>
+            <label for="password">Password</label>
+            <input type="text" required data-login-password>
+            <p id="message" data-form-message></p>
+            <button type="submit">Login</button>
+        </form>
+    </main>
+</body>
+    <footer>Copy right David Vasilyav &copy;</footer>
+</html>

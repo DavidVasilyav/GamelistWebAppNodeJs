@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+::placeholder{
+  color: #fffffe;
+}
+
+* {
+    background: #16161a;
+    color: #fffffe;
+    font-family: sans-serif;
+
+  }
+  
+  body {
+    background: #16161a;
+    /* min-height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  
+  header {
+    padding: 10px;
+    border-bottom: 2px solid #7f5af0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #16161a;
+    position: relative;
+  }
+  
+  header > img {
+    width: 50px;
+    height: 50px;
+  }
+
+  #gamelist {
+    /* margin-top: 30px; */
+    color: #94a1b2;
+    border-bottom: #7f5af0 solid 1px;
+    border-top: #7f5af0 solid 1px;
+
+  }
+  
+  main {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  footer {
+    border-top: 2px solid #7f5af0;
+    text-align: center;
+    padding-top: 3px;
+  }
+  
+.user-box{
+  display: flex;
+  align-items: flex-end;
+
+}
+
+.user-stats {
+  display: flex;
+  align-items: center;
+  color: #7f5af0;
+  text-align: center;
+  margin-right: 20px;
+  margin-top: 5px;
+  border-bottom: 1px solid #2cb67d;
+  border-top: 1px solid #2cb67d;
+
+}
+
+
+h4 {
+  text-align: center;
+  color: #2cb67d;
+}
+
+button{
+  background: #7f5af0;
+  color: #fffffe;
+  cursor: pointer;
+  border: 3px solid #2cb67d ;
+  border-radius: 10px;
+  transition: 2s;
+}
+
+button:hover {
+  background: #fffffe;
+  color: #7f5af0;
+
+}
+/* ///header */
+.header-btn {
+  width: 60px;
+  height: 30px;
+
+}
+
+.btn-favorit-header{
+  width: 65px;
+  height: 30px;
+
+}
+
+.btn-add-game {
+  height: 40px;
+}

@@ -1,0 +1,99 @@
+main {
+    background-image: url(https://img.freepik.com/free-photo/cruel-war-scenes-digital-painting_456031-162.jpg?w=1380&t=st=1667428082~exp=1667428682~hmac=8abe3bc6d065ebfa3684aca7977e63871a756f862ffe4dce459caabdb9de5119);
+    background-position: center;
+    background-size: cover;
+}
+
+
+button{
+    background: #7f5af0;
+    color: #fffffe;
+    cursor: pointer;
+    border: 3px solid black;
+    border-radius: 10px !important;
+    text-align: center;
+
+}
+
+table {
+    border: 2px solid #fffffe !important;
+    background-color:rgb(129, 92, 240, 0.2) !important;
+
+}
+
+.main-continer {
+    border: 2px solid #7f5af0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(129, 92, 240, 0.2) !important;
+    gap: 30px;
+}
+
+#name-row {
+    background-color:rgb(129, 92, 240, 0.2) !important;
+    /* background-color:rgb(129, 92, 240, 0.0) !important; */
+    width: 300px !important;
+}
+
+#type-row{
+    width: 50px !important;
+    /* background-color: #2cb67d55; */
+}
+
+#rate-row{
+    width: 30px !important;
+}
+
+.game-img  {
+    width: 100px;
+    height: 100px;
+}
+th{
+    background-color:rgb(129, 92, 240, 0.2) !important;
+}
+
+
+
+/* ///////////////////////FORM HIDDEN///////////////////////////////// */
+thead {
+    border: 1px solid #16161a;
+}
+
+
+.form-game {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center !important;
+    width: 300px;
+    height: 500px;
+    border: solid 4px #2cb67d;
+    border-radius: 10px;
+    gap: 20px;
+    padding: 10px;
+}
+
+
+input {
+    display: flex;
+    color: #fffffe;
+    background-color: #94a1b2;
+    border: 3px solid #2cb67d;
+    border-radius: 10px;
+}
+
+label {
+    border-bottom: 2px solid #7f5af0;
+}
+.close-btn {
+    width: 60px;
+}
+
+/* #game-table {
+    width: auto;
+    display: flex;
+    order: 2;
+} */

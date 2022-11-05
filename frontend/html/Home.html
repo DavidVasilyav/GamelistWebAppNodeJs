@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/global.css">  
+    <link rel="stylesheet" href="../style/home.css">
+    <script src="../js/valid.js" defer></script>
+    <title>GameList</title>
+</head>
+<body>
+    <header>
+        <h1 id="gamelist">GameList.com</h1>
+            <div class="user-box">
+                <div class="user-stats" data-user-status>
+                    <img src="" alt="" srcset="">
+            </div>
+            <button class="btn-add-game" onclick="showMe()" data-add-game-btn>Add game</button>
+            <a href="./Favorit.html">
+                <button class="btn-favorit-header">Favorit</button>
+            </a>
+            <a href="./Login.html" data-logout >
+                <button href="" class="header-btn" data-logout>logout</button>
+            </a>
+            
+    </header>
+    <main>
+        <div
+         class="main-continer" data-game-container>
+        </div>
+            
+                <form id="form-id" class="form-game" style="display:none" data-add-game-form>
+                    <label for="game-name">Game Name:</label>
+                    <input type="text"required data-game-name>
+                
+                    <label for="game-type">Game Type:</label>
+                    <input type="text"required data-game-type>
+
+                    <label for="game-rate">Game Rate:</label>
+                    <input type="text"required data-game-rate>
+
+                    <label for="game-img">Game Img:</label>
+                    <input type="text" placeHolder="Image Link Only" data-game-img>
+                    
+                    <div class="btn-continer">
+                        <button class="btn-new-game" type="submit">Send</button>
+                        <button id="close-btn" onclick="showMe()">Close</button>
+                    </div>
+                        <div data-form-msg></div>
+
+                </form>
+    </main>
+
+</body>
+    <footer>Copy right David Vasilyav &copy;</footer>
+    <script src="../js/game.js"></script>
+    <script src="../js/logout.js"></script>
+    <script src="../js/addGame.js"></script>
+    </html>
